@@ -31,21 +31,15 @@
   }
 
 ## 4. Application stack
+Приложение написано на функциональных компонентах, с использованием хуков.  
 Создание приложения: Create React App.  
 Навигация: React Router.  
 Стили: CSS, React-Bootstrap.  
 Форматирование кода: ESLint.
 
-### Структура папок:
-+---Project  
-|   +---node_modules  
-|   +---public  
-|   +---src  
-|   |   +---Custom Highlighting  
-|   |   \---Default Highlighting  
-|   +---Macros  
-|   +---SetUp  
-|   +---Shell  
-|   \---XLat  
-|       \---Russian  
+## 5. Структура папок:
+Названия папок интуитивно понятны.  
+- Папка ./src/Components хранит компоненты.  
+- Папка ./src/Contexts хранит логику контекстов.  
+- Папка ./src/Icons хранит графические файлы иконок.
 
