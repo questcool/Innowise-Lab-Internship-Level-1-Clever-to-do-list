@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button, select {
+    height: 2em;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #363636;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:focus, select:focus {
+    outline: none;
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .25em .75em;
+    text-align: center;
+}
+
+select {
+    padding: .25em .5em;
+}
+
+.calendar header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.calendar header button,
+.calendar header select {
+    margin: 0 4px;
+}
+
+.calendar table {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: auto;
+}
+
+.calendar th {
+    vertical-align: middle;
+    text-align: center;
+    height: 36px;
+}
+
+.calendar .day {
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.calendar .weekdayname {
+    padding: 4px 8px;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.calendar .day:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.calendar .day.selected {
+    border: 2px solid dodgerblue;
+}
+
+.calendar .day.today {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.calendar .day.today:hover {
+    background-color: #0081ff;
+}
+
+.calendar .day.today.selected {
+    border: 2px solid lightgray;
+}
+
+.horizontalscrollwrapper {
+    max-width: 762px;
+    overflow-y: auto;
+    overflow-x: scroll;
+    padding-top: 1rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+    scroll-behavior: smooth;
+  }
+  
+  .horizontalscrollwrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+  .done {
+    text-decoration: line-through;
+  }
+
+  .editDeleteButton {
+    padding: 2px;
+    
+  }
+  
+  .editDeleteButton:hover {
+      animation: bounce 1s;
+    }
+
+    .scrollButtonLight {
+        transition: all 0.3s;
+    }
+
+  .scrollButtonLight:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+  .scrollButtonDark {
+        transition: all 0.3s;
+    }
+
+  .scrollButtonDark:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255);
+    }
+  
+  .logoutButtonDark {
+        transition: all 0.3s;
+        box-shadow: 0 0 3px rgba(255, 255, 255);
+    }
+
+  .logoutButtonDark:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255);
+    }
+
+  .logoutButtonLight {
+        transition: all 0.3s;
+        box-shadow: 0 0 3px rgba(0,0,0);
+    }
+
+  .logoutButtonLight:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+  
+  .editDeleteButton:active {
+    transform: translateY(4px);
+  }
+
+
+  @keyframes bounce {
+	40% {
+		transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
