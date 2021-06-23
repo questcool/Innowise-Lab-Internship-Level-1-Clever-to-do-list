@@ -2,6 +2,13 @@
 
 ## How to run the app:
 
+### npm i
+Для запуска веб-приложения устанавливаем зависимости в проект.
+
+### .env.local
+В скайпе, вместе со ссылкой на данный проект на GitHub, отправил файл .env.local со всеми secret-значениями Firebase.
+Вставляем этот файл в верхний уровень проекта (на одном уровне с файлом "README.MD").
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
