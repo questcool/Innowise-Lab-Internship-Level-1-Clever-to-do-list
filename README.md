@@ -1,5 +1,5 @@
 ## Task: [Innowise Lab Internship_ Level 1_ Clever to-do list](https://github.com/questcool/Innowise-Lab-Internship-Level-1-Clever-to-do-list/blob/master/Innowise%20Lab%20Internship_%20Level%201_%20Clever%20to-do%20list.docx)
-# Getting Started with Create React App
+## How to run the app:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
