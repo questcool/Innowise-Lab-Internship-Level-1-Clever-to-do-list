@@ -30,4 +30,20 @@
     uid: (string) //уникальный id пользователя из коллекции "users"  
   }
 
+## 4. Application stack
+Создание приложения: Create React App.  
+Навигация: React Router.  
+Стили: CSS, React-Bootstrap.  
+Форматирование кода: ESLint.
+
+### Структура папок:
++---src
+|   +---Colors
+|   |   +---Custom Highlighting
+|   |   \---Default Highlighting
+|   +---Macros
+|   +---SetUp
+|   +---Shell
+|   \---XLat
+|       \---Russian
 
