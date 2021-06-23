@@ -20,5 +20,14 @@
 а чтобы вернуть обратно отображение всех дней нажимаем на неё же "Show all days".  
 
 ## 3. Database snapshot:
+- Используется аутентификация пользователей по email.  
+- Для хранения задач используется Firestore Database, в которой работают 2 коллекции: "users" (уникальные id пользователей) и "tasks"(ниже подробнее).
+  Коллекция "tasks" создаёт document (для каждой заметки) с уникальным названием, в котором содержится информация вида:  
+  dayList: {
+    date: (string),  
+    dayId: (number),  
+    taskList: { title:(string), description:(string), isDone:(boolean) },  
+    uid: (string) //уникальный id пользователя из коллекции "users" 
+  }
 
 
