@@ -16,7 +16,7 @@ function App() {
 
     <Container
       className="align-items-center justify-content-center"
-      style={{ minHeight: '100vh', width: '762px' }}
+      style={{ minHeight: '100vh', width: '762px', maxHeight: '100vh' }}
     >
       <div style={{ width: '762px', height: '762px' }}>
         <Router>
