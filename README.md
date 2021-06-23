@@ -37,13 +37,15 @@
 Форматирование кода: ESLint.
 
 ### Структура папок:
-+---src
-|   +---Colors
-|   |   +---Custom Highlighting
-|   |   \---Default Highlighting
-|   +---Macros
-|   +---SetUp
-|   +---Shell
-|   \---XLat
-|       \---Russian
++---Project  
+|   +---node_modules  
+|   +---public  
+|   +---src  
+|   |   +---Custom Highlighting  
+|   |   \---Default Highlighting  
+|   +---Macros  
+|   +---SetUp  
+|   +---Shell  
+|   \---XLat  
+|       \---Russian  
 
